@@ -9,7 +9,7 @@ body {
     margin: 5;
     padding: 0;
     line-height: 1;
-    display: flex;
+    
 }
 
 
@@ -90,9 +90,9 @@ section header h3.menu-title {
 }
 
 section.menu nav ul.menu-list {
-  font-size: 3rem;
+  font-size: 1.2rem;
   display: inline-block;
-  margin: 1rem 2rem 3rem;
+  margin:  3rem;
 }
 
 section.menu nav li {
@@ -136,7 +136,7 @@ section.title div.title-div div.title-container ul {
 }
 
 section.title img.profile {
-    width: 1rem;
+    width: 2rem;
     border-radius: 50%;
 }
 
@@ -152,6 +152,7 @@ section.title img.profile {
 
 section.about {
     background-image: url("assets/astronauta.webp");
+    border-radius: 2rem;
 
     
 }
@@ -181,21 +182,21 @@ section.skills div.skills-line {
 
 section.skills div.skills-line div.skills-box {
     display: flex;
-    flex-direction: column;
+    
     align-items:center;
-    padding: 16px;
+    padding: 4px 0px 0px 60px;
     background-color: #fbfbfb;
     margin: 22px 0 22px 0;
     border-radius: 2rem;
-    font-size: 2rem;
-    box-shadow: 10px 10px black; 
+    font-size: 1.5rem;
+    box-shadow: 5px 5px black; 
     transform: scale(0.9);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 section.skills div.skills-line div.skills-box ul {
-    margin: 0;
-    padding: 0;
+    margin: 1px;
+    padding: 1px;
 
 }
 section.hobbies-section div.hobbies-line {
@@ -208,11 +209,11 @@ section.hobbies-section div.hobbies-line {
 section.hobbies-section div.hobbies-line div.hobbies-box {
     display: flex;
     flex-direction: column;
-    padding: 16px;
+    padding: 20px 20px 0px 20px;
     background-color: #fbfbfb;
     margin: 22px 0 22px 0;
     border-radius: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     align-items:center;
     box-shadow: 10px 10px black;
     transform: scale(0.9);
@@ -229,14 +230,14 @@ section.hobbies-section div.hobbies-line div.hobbies-box ul {
 
 section.academic {
      padding: 1rem;
-    width: 100%;
+    width: 90%;
     color: white;
 }
 .course-img{
     border-radius:  2rem;
     box-shadow: 10px 10px black;
     color: white;
-    padding: 2rem;
+    padding: 10px 10px 10px 90px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
@@ -545,7 +546,7 @@ section.footer div.rodape {
     }
 
     section.title img.profile {
-        width: 368px;
+        width: 250px;
 
     }
 
@@ -565,7 +566,7 @@ section.footer div.rodape {
     /*Sessão sobre*/
 
     section.about {
-        padding: 62px 50px;
+        padding: 20px;
     }
 
     div.about-container {
@@ -606,16 +607,13 @@ section.footer div.rodape {
     }
 
     section.academic div.courses ul li.course-img img {
-        width: 70%;
+        width: 50%;
     }
-
-    section.academic div.courses ul li.course-img {
-        padding: 30px 30px;
-    }
-
     section.academic {
         margin-top: 82px;
+        padding: 0px 0px 0px 50px;
     }
+    
 
     /*Experiência Profissional*/
 
